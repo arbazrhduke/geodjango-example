@@ -80,8 +80,8 @@ DATABASES = {
         'default': {
             'ENGINE': 'django.contrib.gis.db.backends.postgis',
             'NAME': 'geolocator_1',
-            'USER': 'aveto',
-            'PASSWORD': 'password',
+            'USER': 'your_db_user_name',
+            'PASSWORD': 'your_db_password',
             'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
             'PORT': '5432',
         }
